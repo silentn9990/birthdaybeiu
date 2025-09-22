@@ -378,21 +378,27 @@
 
         // Chạy ảnh hình chữ nhật liên tục - THÊM MỚI
         function startRectangleImages() {
-            for (let i = 0; i < 13; i++) {
+            let isMobile = window.innerWidth <= 480;
+            let initialCount = isMobile ? 3 : 13;
+            let intervalTime = isMobile ? 1800 : 550;
+            for (let i = 0; i < initialCount; i++) {
                 setTimeout(() => {
                     createRectangleImage();
-                }, i * 240);
+                }, i * intervalTime);
             }
-            setInterval(createRectangleImage, 550); // Tăng thời gian để không quá nhanh
+            setInterval(createRectangleImage, intervalTime);
         }
-55
+
         function startScrollingHeartImages() {
-            for (let i = 0; i < 12; i++) {
+            let isMobile = window.innerWidth <= 480;
+            let initialCount = isMobile ? 2 : 12;
+            let intervalTime = isMobile ? 2200 : 300;
+            for (let i = 0; i < initialCount; i++) {
                 setTimeout(() => {
                     createScrollingHeartImage();
-                }, i * 2570);
+                }, i * intervalTime);
             }
-            setInterval(createScrollingHeartImage, 300);
+            setInterval(createScrollingHeartImage, intervalTime);
         }
         function startContinuousFireworks() {
             createFireworks();
