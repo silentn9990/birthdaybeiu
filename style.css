@@ -599,20 +599,33 @@
         }
 
         /* Responsive cho thiệp 3D */
-        @media (max-width: 768px) {
-    .card-3d {
-        width: 280px;
-        height: 380px;
-    }
-    
-    .card-details h4 {
-        font-size: 22px;
-    }
+        @media (max-width: 480px) {
+            .card-3d {
+                width: 98vw;
+                height: auto;
+                min-height: 320px;
+            }
+            .card-details {
+                font-size: 1.05em;
+                font-family: 'Poppins', Arial, sans-serif !important;
+                color: #222;
+            }
+            .card-details h4 {
+                font-size: 1.2em;
+                font-family: 'Poppins', Arial, sans-serif !important;
+            }
+            .card-details p, .card-details span {
+                font-size: 1em !important;
+                font-family: 'Poppins', Arial, sans-serif !important;
+                color: #222 !important;
+                word-break: break-word;
+            }
+        }
     
     .card-details p {
         font-size: 13px;
     }
-}
+
         /* Responsive design */
         @media (max-width: 480px) {
             .calculator-screen, .birthday-screen {
