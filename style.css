@@ -595,7 +595,7 @@
             font-style: normal;    /* Sửa lại: không nghiêng */
             margin: 3px 0;
             opacity: 1;
-            text-align: center;
+            text-align: left;
         }
 
         /* Responsive cho thiệp 3D */
@@ -1015,7 +1015,7 @@
 }
 
 .rainbow-text {
-    font-size: 2.9em;
+    font-size: 2.0em;
     font-weight: 900;
     background: linear-gradient(45deg, #4649fd, #f141b7, #eeba0f);
     background-size: 800% 800%;
@@ -1034,7 +1034,7 @@
 }
 
 .subtitle {
-    font-size: 2em;
+    font-size: 1.7em;
     color: #fff;
     font-weight: 700;
     text-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
@@ -1429,15 +1429,12 @@
 }
 @media (max-width: 768px) {
   body, .card-details, .card-details p, .card-details h4, .main-title, .rainbow-text, .subtitle {
-    font-family: 'Quicksand', 'Poppins', Arial, sans-serif !important;
     font-weight: 400;
     letter-spacing: 0.02em;
-    -webkit-font-smoothing: antialiased;
   }
 }
 @media (max-width: 480px) {
   body, .card-details, .card-details p, .card-details h4, .main-title, .rainbow-text, .subtitle {
-    font-family: 'Quicksand', 'Poppins', Arial, sans-serif !important;
     font-weight: 400;
     letter-spacing: 0.02em;
     -webkit-font-smoothing: antialiased;
