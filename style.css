@@ -601,25 +601,15 @@
         /* Responsive cho thiệp 3D */
         @media (max-width: 480px) {
             .card-3d {
-                width: 98vw;
+                width: 270px;
                 height: auto;
-                min-height: 320px;
-            }
-            .card-details {
-                font-size: 1.05em;
-                font-family: 'Poppins', Arial, sans-serif !important;
-                color: #222;
+                min-height: 360px;
             }
             .card-details h4 {
-                font-size: 1.2em;
+                font-size: 21px;
                 font-family: 'Poppins', Arial, sans-serif !important;
             }
-            .card-details p, .card-details span {
-                font-size: 1em !important;
-                font-family: 'Poppins', Arial, sans-serif !important;
-                color: #222 !important;
-                word-break: break-word;
-            }
+
         }
     
     .card-details p {
