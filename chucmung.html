@@ -249,7 +249,10 @@
             audio.play();
         }
         const heartImages = [
-            "img/gaixenh12.jpg", "img/gaixenh1.jpg", "img/gaixenh2.jpg", "img/gaixenh3.jpg", "img/gaixenh4.jpg","img/gaixenh5.jpg",
+            "img/gaixenh12.jpg", "img/gaixenh1.jpg", "img/gaixenh2.jpg", "img/gaixenh3.jpg", "img/gaixenh4.jpg",
+            "img/gaixenh6.jpg", "img/gaixenh7.jpg", "img/gaixenh8.jpg", "img/gaixenh9.jpg","img/gaixenh10.jpg","img/gaixenh11.jpg",
+            "img/gaixenh13.jpg", "img/gaixenh14.jpg", "img/gaixenh15.jpg",
+            "img/gaixenh12.jpg", "img/gaixenh1.jpg", "img/gaixenh2.jpg", "img/gaixenh3.jpg", "img/gaixenh4.jpg",
             "img/gaixenh6.jpg", "img/gaixenh7.jpg", "img/gaixenh8.jpg", "img/gaixenh9.jpg","img/gaixenh10.jpg","img/gaixenh11.jpg",
             "img/gaixenh13.jpg", "img/gaixenh14.jpg", "img/gaixenh15.jpg"
 
@@ -380,7 +383,7 @@
         function startRectangleImages() {
             let isMobile = window.innerWidth <= 480;
             let initialCount = isMobile ? 3 : 13;
-            let intervalTime = isMobile ? 1100 : 550;
+            let intervalTime = isMobile ? 1500 : 550;
             for (let i = 0; i < initialCount; i++) {
                 setTimeout(() => {
                     createRectangleImage();
@@ -392,7 +395,7 @@
         function startScrollingHeartImages() {
             let isMobile = window.innerWidth <= 480;
             let initialCount = isMobile ? 2 : 12;
-            let intervalTime = isMobile ? 1300 : 300;
+            let intervalTime = isMobile ? 1700 : 300;
             for (let i = 0; i < initialCount; i++) {
                 setTimeout(() => {
                     createScrollingHeartImage();
